@@ -1,0 +1,102 @@
+body {
+	max-width: 100%;
+	font-family: Arial;
+}
+
+.frmContact {
+	border-top: #c9e0dc 2px solid;
+	background: #c9e0dc;
+	padding: 25px;
+	width: 270px;
+	text-align: justify;
+}
+
+.frmContact .field-row {
+	margin-bottom: 20px;
+}
+
+.frmContact div label {
+	margin: 5px 0px 0px 5px;
+	color: #49615d;
+}
+
+.input_box {
+	padding: 10px;
+	border: #a5d2ca 1px solid;
+	border-radius: 4px;
+	background-color: #FFF;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.select_box {
+	padding: 10px;
+	border: #a5d2ca 1px solid;
+	border-radius: 4px;
+	background-color: #FFF;
+	margin-top: 5px;
+}
+
+select.select_box {
+	height: 37px;
+	margin-right: 10px;
+}
+
+.error {
+	background-color: #FF6600;
+	padding: 8px 10px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+.success {
+	background-color: #c3c791;
+	padding: 8px 10px;
+	color: #FFFFFF;
+	border-radius: 4px;
+	font-size: 0.9em;
+}
+
+.info {
+	font-size: .8em;
+	color: #FF6600;
+	letter-spacing: 2px;
+	padding-left: 5px;
+}
+
+.btnAction {
+	background-color: #82a9a2;
+	padding: 10px 40px;
+	color: #FFF;
+	border: #739690 1px solid;
+	border-radius: 4px;
+	cursor:pointer;
+}
+
+.btnAction:focus {
+	outline: none;
+}
+
+.column-right {
+	margin-right: 6px;
+}
+
+.contact-row {
+	display: inline-block;
+}
+
+.cvv-input {
+	width: 60px;
+}
+
+#error-message {
+	margin: 20px 0px 0px;
+	background: #DD0000;
+	padding: 10px;
+	border-radius: 4px;
+	line-height: 25px;
+	font-size: 0.9em;
+	color: #FFF;
+	display:none;
+}
